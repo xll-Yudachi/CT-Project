@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+    static-path-pattern: /static/** #静态文件访问配置
+  #数据源和jpa配置
+  datasource:
+    #数据库相关的配置url  -SSL连接设置为false
+    url: jdbc:mysql://localhost:3306/ct?characterEncoding=utf8&useSSL=false
+    #配置用户名
+    username: root
+    #配置密码
+    password: ZUIEWANGGUAN
+  jpa:
+    #配置数据库类型
+    database: MYSQL
+    #配置是否打印sql
+    show-sql: true

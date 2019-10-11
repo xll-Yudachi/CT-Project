@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="CT-Producer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CT_Producer_jar</output-path>
+    <root id="root">
+      <element id="archive" name="CT-Producer.jar">
+        <element id="module-output" name="CT-Producer" />
+        <element id="module-output" name="CT-Common" />
+      </element>
+      <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+      <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
+    </root>
+  </artifact>
+</component>
